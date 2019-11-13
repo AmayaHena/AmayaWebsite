@@ -48293,3 +48293,566 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 6632)
 
 
+Started GET "/" for 127.0.0.1 at 2019-11-13 13:45:42 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 429)
+Completed 200 OK in 543ms (Views: 539.0ms | ActiveRecord: 0.0ms | Allocations: 1437925)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:47:11 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.3ms | Allocations: 110)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 6171)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 13:47:12 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 5525)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:47:44 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5524)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:49:07 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.5ms | Allocations: 98)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 6559)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:49:14 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.8ms | Allocations: 97)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 6561)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:49:28 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 96)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 6554)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:49:43 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 96)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 6553)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:53:03 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 99)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 6557)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:53:37 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 99)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 6556)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:54:15 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 104)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 6561)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 13:54:24 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 107)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 6570)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:06:01 +0100
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 103)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 6560)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:06:02 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 165)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 6258)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:07:11 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 165)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 6625)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:08:00 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 165)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 6622)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:10:24 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 164)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 6622)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:10:28 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6201)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:11:18 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 107)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 6567)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:12:00 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.7ms | Allocations: 109)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 6567)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:13:21 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 6565)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:17:30 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 114)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 6571)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:17:59 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.3ms | Allocations: 117)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 6574)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:18:01 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 5514)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:19:21 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 118)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6578)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:20:08 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 119)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 6576)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:20:17 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.3ms | Allocations: 122)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 6586)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:20:25 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.4ms | Allocations: 120)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6583)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:21:31 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.8ms | Allocations: 125)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 6582)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:23:21 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.9ms | Allocations: 127)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 6584)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:23:29 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.4ms | Allocations: 127)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 6584)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:25:00 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.8ms | Allocations: 129)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 6587)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:25:30 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.7ms | Allocations: 130)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 6591)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:26:27 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.7ms | Allocations: 129)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 6586)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:29:31 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 6588)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:31:57 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 130)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 6587)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:33:07 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 6589)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:33:29 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.7ms | Allocations: 131)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 6588)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:33:44 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 5514)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:33:46 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 164)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 6260)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:33:51 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5522)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:37:20 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 7718)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:37:26 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 5536)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:37:44 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 8862)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:38:19 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 5534)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:39:18 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 139)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 6604)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:39:40 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 6591)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:40:07 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 134)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 6591)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:41:51 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5515)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:41:52 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 164)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 6260)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:43:11 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 5545)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:46:14 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.3ms | Allocations: 141)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 6605)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:46:47 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.3ms | Allocations: 140)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 6597)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:50:39 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 164)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 6253)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:54:38 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 164)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 6625)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:54:41 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.6ms | Allocations: 139)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 6229)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:54:55 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.7ms | Allocations: 140)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 6600)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:54:57 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 5514)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:55:06 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 1.0ms | Allocations: 139)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 6599)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:55:07 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 5516)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:56:51 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.7ms | Allocations: 142)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 6606)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:56:54 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 164)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 6258)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:56:58 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 5517)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:57:00 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 5522)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:57:02 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 5516)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:57:04 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 5516)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:57:09 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 5516)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:58:12 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 142)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 6607)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:58:21 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.8ms | Allocations: 142)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 6600)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:58:40 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 164)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 6258)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:59:00 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 5545)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:59:07 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 5516)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:59:08 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 5556)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-13 14:59:29 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 165)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 6625)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 14:59:33 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 141)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 6234)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 15:00:08 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 141)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 6601)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 15:00:27 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 142)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 6600)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 15:00:48 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.5ms | Allocations: 142)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 6599)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 15:01:08 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.7ms | Allocations: 142)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 6599)
+
+
+Started GET "/about" for 127.0.0.1 at 2019-11-13 15:01:55 +0100
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.2ms | Allocations: 141)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6602)
+
+
