@@ -1,0 +1,11 @@
+<header>
+    <h2><%= @post.name %></h2>
+    <p><%= @post.content %></p>
+</header>
+
+<p>
+    <a href="<%= posts_path %>" class="button1">Back</a>
+    <a href="<%= request.path+"/edit" %>" class="button1">Edit</a>
+    <a class="button2" data-confirm="Delete ?" data-method="DELETE">Delete</a>
+    <%= csrf_meta_tags %>
+</p>

@@ -1,0 +1,18 @@
+<%= form_for @post do |f| %>
+
+    <label>Name</label>
+    <div id="name", class="form-group">
+        <%= f.text_field :name, class: 'input'%>
+    </div>
+
+    <label>Content</label>
+    <div id="post", class="form-group">
+        <%= f.text_field :content, class: 'input'%>
+    </div>
+
+    <div class="form-group">
+        <a href="<%= posts_path %>" class="button1">Back to <%= @post.name %></a>
+        <button type="submit">Create Post</button>
+    </div>
+
+<% end %>
