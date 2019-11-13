@@ -98,56 +98,6 @@ nav {
 
 
 /*---------------------------*/
-/*-----INPUT NAME GESTION----*/
-/*-----------BEGIN-----------*/
-/*---------------------------*/
-#name input[type=text] {
-    width: 33%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #333;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
-
-#name input[type=text]:focus {
-    border: 3px solid white;
-}
-/*---------------------------*/
-/*------------END------------*/
-/*-----INPUT NAME GESTION----*/
-/*---------------------------*/
-
-
-
-/*---------------------------*/
-/*---INPUT CONTENT GESTION---*/
-/*-----------BEGIN-----------*/
-/*---------------------------*/
-#post input[type=text] {
-    width: 66%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #333;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: auto;
-}
-
-#post input[type=text]:focus {
-    border: 3px solid white;
-}
-/*---------------------------*/
-/*------------END------------*/
-/*---INPUT CONTENT GESTION---*/
-/*---------------------------*/
-
-
-
-/*---------------------------*/
 /*------BUTTON1 GESTION------*/
 /*-----------BEGIN-----------*/
 /*---------------------------*/
@@ -260,6 +210,25 @@ a.button2:hover {
 /*---------------------------*/
 /*------------END------------*/
 /*------BUTTON2 GESTION------*/
+/*---------------------------*/
+
+
+
+
+/*---------------------------*/
+/*--------PP GESTION---------*/
+/*----------BEGIN------------*/
+/*---------------------------*/
+.imgcenter {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-25px;
+    margin-left:-25px;
+}
+/*---------------------------*/
+/*--------PP GESTION---------*/
+/*----------BEGIN------------*/
 /*---------------------------*/
 
 
