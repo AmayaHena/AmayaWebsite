@@ -61,4 +61,4 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /log/*
 /storage/*
-!/storage/.keep
+/storage/.keep
